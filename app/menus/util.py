@@ -8,7 +8,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
     width = 55
     print("=" * width)
-    print(f" Join group telegram: https://t.me/AnooooMaliEngsellllll".center(width))
+    print(f" By Amengs770".center(width))
     print("=" * width)
     print("")
 
