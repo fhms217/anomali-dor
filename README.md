@@ -20,7 +20,7 @@ git clone https://github.com/fhms217/anomali-dor
 ```
 4. Open the folder
 ```
-cd anomali-xl
+cd anomali-dor
 ```
 5. Setup
 ```
