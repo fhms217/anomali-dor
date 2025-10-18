@@ -8,7 +8,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
     width = 55
     print("=" * width)
-    print(f" By Amengssssssssss".center(width))
+    print(f" Join group telegram: https://t.me/AnooooMaliEngsellllll".center(width))
     print("=" * width)
     print("")
 
@@ -55,8 +55,3 @@ def display_html(html_text, width=80):
     parser = HTMLToText(width=width)
     parser.feed(html_text)
     return parser.get_text()
-
-
-def get_api():
-    with open("apikey.anomali", "r") as f:
-        return f.read()
