@@ -86,7 +86,7 @@ def show_hot_menu2():
         print("===================🔥 Paket  Hot 2 🔥==================")
         print("=======================================================")
 
-        url = BASE_CRYPTO_URL + "/pghot2"
+        url = "https://raw.githubusercontent.com/fhms217/dor/refs/heads/main/pg-hot2.json"
         response = requests.get(url, timeout=30)
         if response.status_code != 200:
             print("Gagal mengambil data hot package.")
